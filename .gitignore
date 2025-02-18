@@ -1,3 +1,11 @@
-*.o
+# Ignorer les fichiers exécutables
+*.exe
 *.out
 bienvenue
+
+# Ignorer les fichiers objets
+*.o
+*.obj
+
+# Ignorer les fichiers temporaires de l'éditeur
+*~
