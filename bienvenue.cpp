@@ -1,9 +1,8 @@
-// TODO Indiquer ce que fait le programme
-#include <iostream>
+// Affiche un message de bienvenue
+#include "fonction-bienvenue.h"
 
 int main()
 {
-    std::cout << "Bienvenue le monde !" << std::endl;
-    std::cout << "Bienvenue dans le programme !\n";
+    afficherBienvenue();
     return 0;
 }
