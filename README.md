@@ -1,6 +1,16 @@
-<<<<<<< HEAD
-# Bienvenue\nProgramme C++ qui affiche "Bienvenue le monde!"
-=======
 # Bienvenue
-Programme C++ qui affiche "Bienvenue le monde !"
->>>>>>> 0d0452a... mise a jour du fichier README
+Programme C++ qui affiche "Bienvenue le monde !" en utilisant la fonction `afficherBienvenue()`.
+
+## Exemple d'exécution
+
+L'exécution d'une commande Linux :
+
+```sh
+$ make rebuild
+Fabrication du programme : bienvenue
+rm -f *.o
+g++ -c -Wall -std=c++11 bienvenue.cpp
+g++ -c -Wall -std=c++11 fonction-bienvenue.cpp
+g++ -o bienvenue bienvenue.o fonction-bienvenue.o
+$ ./bienvenue
+Bienvenue le monde !
